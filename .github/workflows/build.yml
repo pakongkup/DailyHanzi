@@ -1,0 +1,40 @@
+name: Build iOS App
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Allows you to manually trigger the build
+
+jobs:
+  build:
+    runs-on: macos-13 # Tells GitHub to use a cloud Mac computer!
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Xcode Version
+      run: sudo xcode-select -s /Applications/Xcode_15.0.app
+
+    - name: Build and Package App
+      run: |
+        # 1. Build the app using Xcode build commands
+        xcodebuild -project "DailyHanzi.xcodeproj" \
+                   -scheme "DailyHanzi" \
+                   -sdk iphoneos \
+                   -configuration Release \
+                   CODE_SIGNING_ALLOWED=NO \
+                   CODE_SIGNING_REQUIRED=NO \
+                   clean build
+        
+        # 2. Package the compiled app into an installable .ipa file
+        mkdir -p build/Payload
+        cp -r ~/Library/Developer/Xcode/DerivedData/*/Build/Products/Release-iphoneos/DailyHanzi.app build/Payload/
+        cd build
+        zip -r DailyHanzi.ipa Payload
+
+    - name: Upload Compiled App (.ipa)
+      uses: actions/upload-artifact@v3
+      with:
+        name: DailyHanzi-App
+        path: build/DailyHanzi.ipa
