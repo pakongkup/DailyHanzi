@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D40101010101010101 /* DailyHanziApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E40101010101010101 /* DailyHanziApp.swift */; };
+		A1B2C3D40202020202020202 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E40202020202020202 /* ContentView.swift */; };
+		A1B2C3D40303030303030303 /* HanziManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E40303030303030303 /* HanziManager.swift */; };
+		A1B2C3D40404040404040404 /* HSKVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E40404040404040404 /* HSKVocabulary.swift */; };
+		A1B2C3D40505050505050505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C2D3E40505050505050505 /* Assets.xcassets */; };
+		A2B3C4D50101010101010101 /* DailyHanziWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2E3F40101010101010101 /* DailyHanziWidget.swift */; };
+		A2B3C4D50202020202020202 /* DailyHanziWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2E3F40202020202020202 /* DailyHanziWidgetBundle.swift */; };
+		A2B3C4D50303030303030303 /* HSKVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E40404040404040404 /* HSKVocabulary.swift */; };
+		A2B3C4D50404040404040404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D2E3F40404040404040404 /* Assets.xcassets */; };
+		D1E2F3A40101010101010101 /* DailyHanziWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E1F2A3B40101010101010101 /* DailyHanziWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1F2A3B40303030303030303 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D1E2F3A40101010101010101 /* DailyHanziWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B1C2D3E40101010101010101 /* DailyHanziApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHanziApp.swift; sourceTree = "<group>"; };
+		B1C2D3E40202020202020202 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1C2D3E40303030303030303 /* HanziManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanziManager.swift; sourceTree = "<group>"; };
+		B1C2D3E40404040404040404 /* HSKVocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSKVocabulary.swift; sourceTree = "<group>"; };
+		B1C2D3E40505050505050505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1C2D3E40606060606060606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D2E3F40101010101010101 /* DailyHanziWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHanziWidget.swift; sourceTree = "<group>"; };
+		C1D2E3F40202020202020202 /* DailyHanziWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHanziWidgetBundle.swift; sourceTree = "<group>"; };
+		C1D2E3F40404040404040404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1D2E3F40505050505050505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F2A3B40101010101010101 /* DailyHanziWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DailyHanziWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F2A3B40202020202020202 /* DailyHanzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyHanzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1A2B3C40101010101010101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1A2B3C40202020202020202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000000 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				000000000101010101010101 /* DailyHanzi */,
+				000000000202020202020202 /* DailyHanziWidget */,
+				000000000303030303030303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000101010101010101 /* DailyHanzi */ = {
+			isa = PBXGroup;
+			children = (
+				B1C2D3E40101010101010101 /* DailyHanziApp.swift */,
+				B1C2D3E40202020202020202 /* ContentView.swift */,
+				B1C2D3E40303030303030303 /* HanziManager.swift */,
+				B1C2D3E40404040404040404 /* HSKVocabulary.swift */,
+				B1C2D3E40505050505050505 /* Assets.xcassets */,
+				B1C2D3E40606060606060606 /* Info.plist */,
+			);
+			path = DailyHanzi;
+			sourceTree = "<group>";
+		};
+		000000000202020202020202 /* DailyHanziWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C1D2E3F40101010101010101 /* DailyHanziWidget.swift */,
+				C1D2E3F40202020202020202 /* DailyHanziWidgetBundle.swift */,
+				C1D2E3F40404040404040404 /* Assets.xcassets */,
+				C1D2E3F40505050505050505 /* Info.plist */,
+			);
+			path = DailyHanziWidget;
+			sourceTree = "<group>";
+		};
+		000000000303030303030303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1F2A3B40202020202020202 /* DailyHanzi.app */,
+				E1F2A3B40101010101010101 /* DailyHanziWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91A2B3C40101010101010101 /* DailyHanzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A2B3C40101010101010101 /* Build configuration list for PBXNativeTarget "DailyHanzi" */;
+			buildPhases = (
+				31A2B3C40101010101010101 /* Sources */,
+				F1A2B3C40101010101010101 /* Frameworks */,
+				51A2B3C40101010101010101 /* Resources */,
+				E1F2A3B40303030303030303 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91A2B3C40303030303030303 /* PBXTargetDependency */,
+			);
+			name = DailyHanzi;
+			productName = DailyHanzi;
+			productReference = E1F2A3B40202020202020202 /* DailyHanzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91A2B3C40202020202020202 /* DailyHanziWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A2B3C40202020202020202 /* Build configuration list for PBXNativeTarget "DailyHanziWidget" */;
+			buildPhases = (
+				31A2B3C40202020202020202 /* Sources */,
+				F1A2B3C40202020202020202 /* Frameworks */,
+				51A2B3C40202020202020202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyHanziWidget;
+			productName = DailyHanziWidget;
+			productReference = E1F2A3B40101010101010101 /* DailyHanziWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					91A2B3C40101010101010101 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					91A2B3C40202020202020202 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 000000000000000000000001 /* Build configuration list for PBXProject "DailyHanzi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000000 /* Root */;
+			productRefGroup = 000000000303030303030303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91A2B3C40101010101010101 /* DailyHanzi */,
+				91A2B3C40202020202020202 /* DailyHanziWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51A2B3C40101010101010101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D40505050505050505 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A2B3C40202020202020202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B3C4D50404040404040404 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31A2B3C40101010101010101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D40101010101010101 /* DailyHanziApp.swift in Sources */,
+				A1B2C3D40202020202020202 /* ContentView.swift in Sources */,
+				A1B2C3D40303030303030303 /* HanziManager.swift in Sources */,
+				A1B2C3D40404040404040404 /* HSKVocabulary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31A2B3C40202020202020202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B3C4D50101010101010101 /* DailyHanziWidget.swift in Sources */,
+				A2B3C4D50202020202020202 /* DailyHanziWidgetBundle.swift in Sources */,
+				A2B3C4D50303030303030303 /* HSKVocabulary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91A2B3C40303030303030303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91A2B3C40202020202020202 /* DailyHanziWidget */;
+			targetProxy = 91A2B3C40404040404040404 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXContainerItemProxy section */
+		91A2B3C40404040404040404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91A2B3C40202020202020202;
+			remoteInfo = DailyHanziWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000000000000000000000003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91A2B3C40101010101010102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DailyHanzi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailyhanzi.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91A2B3C40101010101010103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DailyHanzi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailyhanzi.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91A2B3C40202020202020203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DailyHanziWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailyhanzi.app.DailyHanziWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91A2B3C40202020202020204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DailyHanziWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailyhanzi.app.DailyHanziWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000001 /* Build configuration list for PBXProject "DailyHanzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000002 /* Debug */,
+				000000000000000000000003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81A2B3C40101010101010101 /* Build configuration list for PBXNativeTarget "DailyHanzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A2B3C40101010101010102 /* Debug */,
+				91A2B3C40101010101010103 /* Release */,
+			);
+			defaultConfigurationName = Release;
+		};
+		81A2B3C40202020202020202 /* Build configuration list for PBXNativeTarget "DailyHanziWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A2B3C40202020202020203 /* Debug */,
+				91A2B3C40202020202020204 /* Release */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000000 /* Project object */;
+}
